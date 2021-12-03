@@ -1,4 +1,4 @@
-botocore -e git://github.com/C2Devel/botocore.git@develop#egg==botocore
+botocore -e git://github.com/sharpeye90/botocore.git@testing#egg==botocore
 jmespath
 s3transfer
 nose==1.3.3

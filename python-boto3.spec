@@ -18,9 +18,9 @@ write software that makes use of services like Amazon S3
 and Amazon EC2.
 
 %package -n     python2-%{pkgname}
-Requires:       python2-botocore >= 1.20.14
+Requires:       python2-botocore >= 1.20.14-CROC7
 Requires:       python2-jmespath >= 0.7.1
-Requires:       python2-s3transfer >= 0.3.0
+Requires:       python2-s3transfer
 
 Summary:        The AWS SDK for Python
 BuildRequires:  python2-devel
@@ -34,9 +34,9 @@ write software that makes use of services like Amazon S3
 and Amazon EC2.
 
 %package -n     python%{python3_pkgversion}-%{pkgname}
-Requires:       python%{python3_pkgversion}-botocore >= 1.20.14
+Requires:       python%{python3_pkgversion}-botocore >= 1.20.14-CROC7
 Requires:       python%{python3_pkgversion}-jmespath >= 0.7.1
-Requires:       python%{python3_pkgversion}-s3transfer >= 0.3.0
+Requires:       python%{python3_pkgversion}-s3transfer
 
 Summary:        The AWS SDK for Python
 BuildRequires:  python%{python3_pkgversion}-devel
